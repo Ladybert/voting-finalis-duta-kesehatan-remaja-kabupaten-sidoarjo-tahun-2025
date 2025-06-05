@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Voting Finalis Duta Kesehatan Remaja Kabupaten Sidoarjo Tahun 2025</title>
+
+  <!-- Link Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS External File -->
+  <link rel="stylesheet" href="./css/stylesheet.css">
+
+</head>
+<body>
+  <header>
+    VOTING FINALIS
+    DUTA KESEHATAN REMAJA
+    KABUPATEN SIDOARJO TAHUN 2025
+  </header>
+
+  <main>
+    <section class="finalists-gallery" id="finalists-gallery">
+      <!-- Kartu finalis akan diisi dengan JS -->
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-media-links" aria-label="Social Media Links">
+      <a href="https://www.instagram.com/youthforumsda?igsh=dGZyOWV5a25hNmxp" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
+      <a href="https://vm.tiktok.com/ZSkh2VynY/" target="_blank" rel="noopener noreferrer" aria-label="TikTok">TikTok</a>
+      <a href="#" aria-label="https://youtube.com/@youthforumsda?si=Ll86Vx4lkB2XJn0S">YouTube</a>
+    </div>
+    <div class="moving-text" aria-hidden="true">Generasi Muda Kabupaten Sidoarjo, Sehat Dimulai Dari Saya &nbsp; Generasi Muda Kabupaten Sidoarjo, Sehat Dimulai Dari Saya &nbsp; Generasi Muda Kabupaten Sidoarjo, Sehat Dimulai Dari Saya &nbsp;</div>
+  </footer>
+
+  <!-- Modal detail finalis -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-name" aria-describedby="modal-desc">
+    <div class="modal-content" tabindex="-1">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+      <img src="" alt="" class="modal-photo" id="modal-photo" />
+      <h2 class="modal-name" id="modal-name"></h2>
+      <p class="modal-slogan" id="modal-slogan"></p>
+      <div class="modal-terms">
+        <h3>Ketentuan Pembelian Balot:</h3>
+        <p>3 Balot = Rp5.000</p>
+        <p>7 Balot = Rp10.000</p>
+        <p>12 Balot = Rp15.000</p>
+        <p>15 Balot = Rp20.000</p>
+      </div>
+      <div class="modal-buttons">
+        <button id="transfer-btn" class="btn">Transfer</button>
+        <button id="chat-btn" class="btn">Chat Bukti TF</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS External File -->
+  <script src="./js/index.js"></script>
+</body>
+</html>
